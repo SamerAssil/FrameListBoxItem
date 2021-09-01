@@ -108,3 +108,7 @@ The this part is a defrent frame:
 
 ## Visual Binding ##
 No visual binding support ( I didn't think about it yet ). but don't complicate it. live is not always easy. just set the values manually.
+
+
+## License ##
+No license attacted. be free to do what ever you want with it.
