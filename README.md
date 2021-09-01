@@ -1,6 +1,8 @@
 # FrameListBoxItem
 ListBoxItem allow to use TFrames in it's items. Supported Windows 32/64, Android, IOs.
 
+![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image1.png)
+
 ## What is it ?
 Actualy it's a TListBoxItem with a Frame property. Nothing more.
 
@@ -82,6 +84,19 @@ The frame will destory with the listbox item destaction or when clear the listbo
 ```
   ListBox1.Items.Delete(ListBox1.Selected.index);
 ```
+
+## Can I use defrent frames in one listbox? ##
+Sure you can. In the Image bellow 
+
+![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image2.jpeg)
+
+The green part is a Frame:
+
+![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame1.jpeg)
+
+The this part is a defrent frame:
+
+![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame2.jpeg)
 
 ## anther example ##
 ```
