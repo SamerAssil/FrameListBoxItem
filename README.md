@@ -90,6 +90,8 @@ The frame will destory with the listbox item destaction or when clear the listbo
 ## Can I use defrent frames in one listbox? ##
 Sure you can. In the Image bellow 
 
+رجاءاّ لا تسألني عن اللغة العربية. لا علاقة للغة العربية بهذه المكتبة نهائيا.
+
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image2.jpeg)
 
 The green part is a Frame:
