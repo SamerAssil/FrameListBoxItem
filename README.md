@@ -7,8 +7,11 @@ Actualy it's a TListBoxItem with a Frame property. Nothing more.
 ## VCL support ##
 No, and it's not ment to be. it's supported only FMX.
 
-## how it's work
+## how it's work ##
 simply it's create a Frame inside a TListBoxItem.
+
+## Installing ###
+Just add FrameListBoxItem.pas to your project.
 
 ## how to access the internal Frame?
  **Frame** Property allow you to access it. simple right ?
