@@ -91,6 +91,7 @@ The frame will destory with the listbox item destaction or when clear the listbo
 Sure you can. In the Image bellow 
 
 رجاءاّ لا تسألني عن اللغة العربية. لا علاقة للغة العربية بهذه المكتبة نهائيا.
+استخدم RTLFix. 
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image2.jpeg)
 
