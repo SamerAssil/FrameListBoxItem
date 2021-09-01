@@ -1,0 +1,106 @@
+object FrameItem: TFrameItem
+  HitTest = False
+  Size.Width = 658.000000000000000000
+  Size.Height = 108.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Padding.Left = 6.000000000000000000
+    Padding.Top = 3.000000000000000000
+    Padding.Right = 6.000000000000000000
+    Padding.Bottom = 3.000000000000000000
+    Size.Width = 658.000000000000000000
+    Size.Height = 108.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFF2D81B4
+      HitTest = False
+      Padding.Left = 9.000000000000000000
+      Padding.Top = 9.000000000000000000
+      Padding.Right = 9.000000000000000000
+      Padding.Bottom = 9.000000000000000000
+      Size.Width = 646.000000000000000000
+      Size.Height = 102.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF1D5475
+      Stroke.Thickness = 2.000000000000000000
+      XRadius = 9.000000000000000000
+      YRadius = 9.000000000000000000
+      object Label1: TLabel
+        Align = Top
+        StyledSettings = [Family, Size]
+        Position.X = 9.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Width = 628.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claYellow
+        Text = 'Label1'
+        TabOrder = 0
+        object Switch1: TSwitch
+          Align = Right
+          IsChecked = False
+          Position.X = 550.000000000000000000
+          Size.Width = 78.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          OnSwitch = Switch1Switch
+        end
+      end
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 591.000000000000000000
+        Size.Height = 67.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 591.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          Text = 'Label2'
+          TabOrder = 0
+        end
+      end
+      object Layout3: TLayout
+        Align = Right
+        Position.X = 600.000000000000000000
+        Position.Y = 26.000000000000000000
+        Size.Width = 37.000000000000000000
+        Size.Height = 67.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object SpeedButton1: TSpeedButton
+          Align = Bottom
+          Position.Y = 40.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowdowntoolbutton'
+          Text = 'SpeedButton1'
+          OnClick = SpeedButton1Click
+        end
+      end
+    end
+  end
+  object FloatAnimation1: TFloatAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'Height'
+    StartValue = 0.000000000000000000
+    StartFromCurrent = True
+    StopValue = 0.000000000000000000
+  end
+  object ShadowEffect1: TShadowEffect
+    Distance = 3.000000000000000000
+    Direction = 45.000000000000000000
+    Softness = 0.200000002980232200
+    Opacity = 0.699999988079071000
+    ShadowColor = claBlack
+  end
+end
