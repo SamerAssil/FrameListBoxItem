@@ -1,26 +1,26 @@
 # FrameListBoxItem
-ListBoxItem allow to use TFrames in it's items. Supported Windows 32/64, Android, IOs.
+FrameListBoxItem allows to use TFrame in its items. It supports FMX platforms Windows 32/64, Android and IOS (no VCL).
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/Frame.png)
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image1.png)
 
-## What is it ?
-Actualy it's a TListBoxItem with a Frame property. Nothing more.
+## What is it?
+It is a TListBoxItem with a Frame property. Nothing more.
 
-## VCL support ##
-No, and it's not ment to be. it's supported only FMX.
+## VCL support? ##
+No, and it is not meant to be. It supports only FMX.
 
-## how it's work ##
-simply it's create a Frame inside a TListBoxItem.
+## How does it work? ##
+Simply, it is creating a Frame inside a TListBoxItem.
 
 ## Installing ###
 Just add FrameListBoxItem.pas to your project.
 
-## how to access the internal Frame?
- **Frame** Property allow you to access it. simple right ?
+## How to access the internal Frame? ##
+ **Frame** Property allow you to access it. simple right?
 
-## Examples 
+## Examples ## 
 ***Create FrameListBoxItem and add it to a listbox:***
 ```
   itm := TFrameListBoxItem<TFrame1>.create(Listbox1);
@@ -28,12 +28,12 @@ Just add FrameListBoxItem.pas to your project.
   itm.Height := 100;  
 ```
 
-***Access a compnent inside the frame:***
-lets say you have a frame and a label compnent inside it.
+***Access a component inside the frame:***
+let’s say you have a frame and a label component inside it.
 ```
 itm.Frame.label1.Text := 'This is a FrameListBoxitem'; 
 ```
-There is ather way to do it by adding a nessesory properties inside Frame unit. and handel everything in it.
+There is another way to do it by adding necessary properties inside Frame unit. and handle everything in it.
 
 ```
 FrameUnit.pas
@@ -53,14 +53,14 @@ end;
 ...
 
 ```
-now simply you can do this
+now simply you can do this:
 ```
   itm.Frame.Title := 'James Bond';
 ```
 
 
 
-***How to populate a Listbox with items from a dataset***
+***How to populate a Listbox with items from a dataset?***
 ```
   listbox1.ItemHeight := 0; // set it to 0 if you have a defrent item's hieghts
 
@@ -82,13 +82,13 @@ now simply you can do this
 
 
 ## Destruction ##
-The frame will destory with the listbox item destaction or when clear the listbox becouse the frame is owned by the Listbox Item. don't warry.
+The frame will destroy with the listbox item destruction or when clear the listbox because the frame is owned by the Listbox Item. don't warry.
 ```
   ListBox1.Items.Delete(ListBox1.Selected.index);
 ```
 
-## Can I use defrent frames in one listbox? ##
-Sure you can. In the Image bellow 
+## Can I use different  frames in one listbox? ##
+Sure, you can. In the Image bellow 
 
 رجاءاّ لا تسألني عن اللغة العربية. لا علاقة للغة العربية بهذه المكتبة نهائيا.
 استخدم RTLFix. 
@@ -99,21 +99,21 @@ The green part is a Frame:
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame1.jpeg)
 
-The this part is a defrent frame:
+This part is a different frame:
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame2.jpeg)
 
-## anther example ##
+## another example ##
 ```
  // locate the associated record in a dataset
- // "ID" is a integer property in the frame to save the record's identify id insede the frame itself. 
+ // "ID" is an integer property in the frame to save the record's identify id inside the frame itself. 
  MyTable.Locate('IDField', (Item as TFrameListBoxItem<TFrame2>).Frame.ID ); 
 ```
 
 
 ## Visual Binding ##
-No visual binding support ( I didn't think about it yet ). but don't complicate it. live is not always easy. just set the values manually.
+No visual binding support ( I didn't think about it yet ). but don't complicate it. life is not always easy. just set the values manually.
 
 
 ## License ##
-No license attacted. be free to do what ever you want with it.
+No license attached. be free to do whatever you want with it.
