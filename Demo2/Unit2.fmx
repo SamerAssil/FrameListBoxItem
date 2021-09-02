@@ -1,0 +1,55 @@
+object Frame2: TFrame2
+  Padding.Left = 2.000000000000000000
+  Padding.Top = 2.000000000000000000
+  Padding.Right = 2.000000000000000000
+  Padding.Bottom = 2.000000000000000000
+  Size.Width = 577.000000000000000000
+  Size.Height = 91.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 573.000000000000000000
+    Size.Height = 87.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFF66CE9F
+      Size.Width = 573.000000000000000000
+      Size.Height = 87.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF848484
+      Stroke.Thickness = 3.000000000000000000
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+    end
+    object Label1: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 497.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'Label1'
+      TabOrder = 1
+    end
+    object FloatAnimation1: TFloatAnimation
+      Duration = 1.000000000000000000
+      PropertyName = 'Opacity'
+      StartValue = 0.000000000000000000
+      StopValue = 1.000000000000000000
+    end
+    object Label3: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 497.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'Label1'
+      TabOrder = 0
+    end
+  end
+end
