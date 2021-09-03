@@ -3,7 +3,10 @@ FrameListBoxItem allows to use TFrame in its items. It supports FMX platforms Wi
 
 ![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/Frame.png)
 
-![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image1.png)
+<img src="https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image1.png" width="50%">
+
+<img src="https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/recording1.gif" width="50%">
+
 
 ## What is it?
 It is a TListBoxItem with a Frame property. Nothing more.
@@ -93,15 +96,16 @@ Sure, you can. In the Image bellow
 رجاءاّ لا تسألني عن اللغة العربية. لا علاقة للغة العربية بهذه المكتبة نهائيا.
 استخدم RTLFix. 
 
-![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image2.jpeg)
+
+<img src="https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/image2.jpeg" width="250">
 
 The green part is a Frame:
 
-![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame1.jpeg)
+<img src="https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame1.jpeg" width="250">
 
 This part is a different frame:
 
-![](https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame2.jpeg)
+<img src="https://github.com/SamerAssil/FrameListBoxItem/blob/main/Images/frame2.jpeg" width="250">
 
 ## another example ##
 ```
