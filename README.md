@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/samerassil"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=samerassil&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 # FrameListBoxItem
 FrameListBoxItem allows to use TFrame in its items. It supports FMX platforms Windows 32/64, Android and IOS (no VCL).
 
@@ -121,3 +123,7 @@ No visual binding support ( I didn't think about it yet ). but don't complicate 
 
 ## License ##
 No license attached. be free to do whatever you want with it.
+
+
+
+<a href="https://www.buymeacoffee.com/samerassil"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=samerassil&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
